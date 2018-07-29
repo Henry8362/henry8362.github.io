@@ -105,7 +105,7 @@ margin-bottom: 3px;
   justify-content: flex-end;
   flex-direction: column;
   position: absolute;
-  top: 1400px;
+  top: 1300px;
   z-index: -1;
 }
 
@@ -113,14 +113,14 @@ margin-bottom: 3px;
 #particles-js {
 
 
-height: 800px;
+min-height: 800px;
 
 }
 
 #particles-js > canvas {
 
 
-height: 800px;
+min-height: 800px;
 
 }
 
