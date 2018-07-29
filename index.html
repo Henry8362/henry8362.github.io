@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400" rel="stylesheet">
+  <link href="aos-master/dist/aos.css" rel="stylesheet">
+    <script src="aos-master/dist/aos.js"></script>
+
+
+
+  </head>
+
+
+  <body>
+    <section id="section-1">
+       <div data-aos="fade-right" id="section-1-wrapper">
+      <h1> Hello, </h1>
+       <h1>I am Life Engine.</h1>
+       <p class="section-1-large"> I find patients before they become critically ill and help save their lives. </p>
+       <p class="section-1-small">LifeEngine.AI</p>
+       <p class="section-1-small extra-light">ARTIFICIAL INTELLIGENCE IN HOSPITALS.</p>
+     </div>
+    </section>
+    <section id="section-2">
+       <div id="section-2-wrapper">
+          <h1> The problem of amenable deaths </h1>
+          <p> 597,000 deaths occured in the UK in 2016,
+            75,736 of these were deemed amenable by the UK Office of National Statistics.
+          </p>
+          <p class="regular"> A large proportion of these deaths occur in hospitals. </p>
+          <h1> Did you know? </h1>
+          <p> 35%-64% of all hospital deaths or adverse events such as spsis or acute kidney
+            injury were not recognised early enough and these patients received sub-optimal care.
+          </p>
+          <p> The severity in a patient's illness is missed because the traditional methods
+            of identification are no longer able to cope with the speed, volume or complexity
+            of data a patient generates, nor are they able to identify the subtle patterns of disease
+            and deterioration.
+          </p>
+          <p class="regular"> Early identification and optimal treatment could prevent up to half these adverse events.</p>
+
+       </div>
+    </section>
+    <section  id="particles-js">
+      <script src="particles.js-master/particles.js"></script>
+        <script src="particles.js-master/app.js"></script>
+      <script>
+       var count_particles, stats, update;
+       stats = new Stats;
+       stats.setMode(0);
+       stats.domElement.style.position = 'absolute';
+       stats.domElement.style.left = '0px';
+       stats.domElement.style.top = '0px';
+       document.body.appendChild(stats.domElement);
+       update = function() {
+         stats.begin();
+         stats.end();
+         if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+           count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+         }
+         requestAnimationFrame(update);
+       };
+       requestAnimationFrame(update);
+     </script>
+      <div id="section-3-wrapper">
+         <h1> Meet Life Engine </h1>
+         <p>Life Engine is an Artificial Intelligence who helps save patient’s lives.</p>
+         <p>She has learnt from millions of anonymised patient journeys, over 1 billion blood results and understands whether a patient
+            is getting better or worse more accurately than any existing system or algorithm.</p>
+         <p>She integrates with the hospital to identify critically ill patients earlier, tracks their progress and automates repetitive tasks.</p>
+         <p>Continuously learning from guidelines and the effectiveness of interventions, she also advises on patient management to both optimise care and reduce variation.</p>
+      </div>
+    </section>
+    <section id="section-4">
+
+
+          <div id="section-4-wrapper">
+             <h1> Stay in Touch </h1>
+             <p> To hear more about Life Engine subscribe here: </p>
+             <!-- mailchimp -->
+             <p> Ask the Life Engine Team a Question. </p>
+             <p> Email: <a href="mail"> 42@LifeEngine.ai </a></p>
+          </div>
+
+    </section>
+    <script>
+    AOS.init();
+  </script>
+
+  </body>
+</html>
