@@ -34,7 +34,7 @@ font-size: 28px;
 #section-1 {
 
 background-image: url("assets/image-1-mobile.jpg");
-background-position: 100% 98%;
+background-position: 100% 34%;
 background-size: 100% auto;
 background-repeat: no-repeat;
 min-height: 100%;
@@ -106,7 +106,7 @@ margin-bottom: 3px;
   flex-direction: column;
   position: absolute;
   top: 1400px;
-
+  z-index: -1;
 }
 
 
