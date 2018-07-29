@@ -88,11 +88,11 @@ margin-bottom: 3px;
 
 #section-3 {
 
-  background-image: url("assets/image-3-mobile.jpg");
+
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100%;
+  min-height: 100%;
 
 }
 
